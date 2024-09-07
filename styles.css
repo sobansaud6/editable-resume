@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#resume section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    cursor: pointer;
+    color: #007BFF;
+}
+
+p, ul {
+    margin: 10px 0;
+}
+
+p[contenteditable="true"], ul[contenteditable="true"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}

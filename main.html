@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="resume">
+        <section id="personal-info">
+            <h2 onclick="editSection('personal-info')">Personal Information</h2>
+            <p contenteditable="false">Name: Soban Saud</p>
+            <p contenteditable="false">Email: sobansaud3@example.com</p>
+            <p contenteditable="false">Phone: (123) 456-7890</p>
+        </section>
+        
+        <section id="experience">
+            <h2 onclick="editSection('experience')">Experience</h2>
+            <ul>
+                <li contenteditable="false">Software Engineer at ABC Corp</li>
+                <li contenteditable="false">Intern at XYZ Ltd</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2 onclick="editSection('skills')">Skills</h2>
+            <ul>
+                <li contenteditable="false">JavaScript</li>
+                <li contenteditable="false">HTML/CSS</li>
+                <li contenteditable="false">Typescript</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
